@@ -70,12 +70,21 @@ h2 {
   color: #333;
 }
 
+/* styles.css */
+
+/* ... existing styles ... */
+
 footer {
   background-color: #333;
   padding: 20px;
   color: #fffefe;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 
 .box-container {
   list-style-type: none;

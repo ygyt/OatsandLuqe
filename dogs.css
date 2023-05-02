@@ -54,12 +54,21 @@ h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* styles.css */
+
+/* ... existing styles ... */
+
 footer {
   background-color: #333;
   padding: 20px;
   color: #fffefe;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 
 /* styles.css */
 .intro-slide {
