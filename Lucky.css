@@ -93,9 +93,10 @@ footer {
   }
   
   .gallery-item {
-    flex-basis: calc(33.33% - 20px); /* Adjust the value to control the size and spacing */
+    flex-basis: calc(33.33% - 20px);
     margin: 10px;
     position: relative;
+    overflow: hidden;
   }
   
   .gallery-item img {
@@ -103,7 +104,13 @@ footer {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease;
   }
+  
+  .gallery-item:hover img {
+    transform: scale(1.05); /* Increase the scale of the image on hover */
+  }
+  
   
   .gallery-item-overlay {
     position: absolute;
