@@ -146,14 +146,15 @@ footer {
     right: -2px;
     bottom: -2px;
     border-radius: 10px;
-    box-shadow: 0 0 50px #fdfd96cc;
+    box-shadow: 0 0 50px #3ea891; /* Update the color value to a more noticeable shade of blue */
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.3s ease;
   }
   
+
   
   .gallery-item:hover .gallery-item-overlay::before {
     opacity: 1;
   }
-  
+   
