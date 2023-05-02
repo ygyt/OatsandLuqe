@@ -88,20 +88,28 @@
 /* styles.css */
 
 /* ... existing styles ... */
-
 footer {
   background-color: #333;
   padding: 20px;
-  color: #fffefe;
+  color: #fff;
   text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 
-  
-  .footer-content {
-    font-size: 14px;
-  }
+.footer-content {
+  font-size: 14px;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #bebebe;
+}
   
