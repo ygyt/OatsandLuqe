@@ -113,19 +113,21 @@ h2 {
 .about-image img {
   max-width: 100%;
   height: auto;
-  margin-left: 580px;
+  margin-left: 30px;
 }
 
 .about-section h3 {
   font-size: 24px;
   color: #333;
   margin-bottom: 10px;
+  margin-left: 60px;
 }
 
 .about-section p {
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 
 .btn {

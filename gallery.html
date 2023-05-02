@@ -4,89 +4,10 @@
   <title>Oats&amp;Luqe - Gallery</title>
   <link rel="stylesheet" href="gallery.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    /* Add the styles for the navigation links */
-    .navigation-links {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-    }
 
-    .navigation-links a {
-      display: inline-block;
-      margin-right: 10px;
-      color: #333;
-      text-decoration: none;
-    }
-
-    .navigation-links a:hover {
-      text-decoration: underline;
-    }
-
-    /* Add the styles for the shortcuts */
-    .shortcut-boxes {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      z-index: 1;
-    }
-
-    .shortcut-box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80px;
-      height: 30px;
-      background-color: #fff;
-      color: #000;
-      text-decoration: none;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .shortcut-box:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
-
-    .shortcut-box::before {
-      content: "";
-      position: absolute;
-      top: -5px;
-      left: -5px;
-      right: -5px;
-      bottom: -5px;
-      border-radius: 10px;
-      background-color: #fff;
-      opacity: 0.2;
-      z-index: -1;
-      transition: opacity 0.3s ease;
-    }
-
-    .shortcut-box:hover::before {
-      opacity: 0.3;
-    }
-
-    .shortcut-icon {
-      font-size: 20px;
-      color: #333;
-    }
-  </style>
 </head>
 <body>
   <header>
-    <!-- Add the shortcuts in the top left corner -->
-    <div class="shortcut-boxes">
-      <a href="#" class="shortcut-box"><span class="shortcut-icon">📷</span></a>
-      <a href="#" class="shortcut-box"><span class="shortcut-icon">🌴</span></a>
-    </div>
-
     <div class="welcome-section">
       <h1 class="welcome-heading">Welcome to The</h1>
       <h1 class="website-heading">Gallery</h1>
