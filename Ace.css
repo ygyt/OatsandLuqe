@@ -97,7 +97,6 @@ footer {
     margin: 10px;
     position: relative;
     overflow: hidden;
-    transition: transform 0.3s ease;
   }
   
   .gallery-item img {
@@ -106,10 +105,6 @@ footer {
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease;
-  }
-
-  .gallery-item:hover {
-    transform: scale(1.1);
   }
   
   .gallery-item:hover img {
