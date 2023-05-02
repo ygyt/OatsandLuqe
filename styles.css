@@ -97,7 +97,7 @@ footer {
 
 /* Add the new styles for the background dimming */
 body {
-  background-color: d1cccc /* Set the background color with opacity */
+  background-color: #ffffff; /* Set the background color with opacity */
 }
 
 /* Add the new styles for the thank you text box */
@@ -107,10 +107,3 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-.website-description {
-  font-size: 18px;
-  color: #666;
-  /* Add any other desired styles */
-}
-
