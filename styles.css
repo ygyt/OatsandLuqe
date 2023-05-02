@@ -1,0 +1,116 @@
+/* styles.css */
+
+.welcome-section {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.welcome-heading {
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.website-heading {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+header {
+  background-color: #bebebe;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.gallery-link {
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.gallery-link:hover {
+  background-color: #333;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fffefe;
+  text-align: center;
+}
+
+.box-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Change to space-around to add equal space on the left and right */
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.box {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width based on your desired layout */
+  padding: 20px;
+  background-color: #d1cccc;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  margin: 10px; /* Adjust the margin value to increase or decrease the space around the boxes */
+  text-align: center;
+}
+
+.thank-you-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  /* Add any other desired styles */
+}
+
+.website-description {
+  font-size: 18px;
+  color: #666;
+  /* Add any other desired styles */
+}
+
+/* Add the new styles for the background dimming */
+body {
+  background-color: d1cccc /* Set the background color with opacity */
+}
+
+/* Add the new styles for the thank you text box */
+.thank-you-box {
+  background-color: #fdfd96;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.website-description {
+  font-size: 18px;
+  color: #666;
+  /* Add any other desired styles */
+}
+

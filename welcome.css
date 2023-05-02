@@ -1,0 +1,94 @@
+/* welcome.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d1cccc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #bebebe;
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .welcome-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .website-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+/* welcome.css */
+
+.welcome-message {
+    font-size: 24px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    background-color: #d1cccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #fdfd96;
+  }
+  
+  
+/* Add this CSS for the "Enter" button */
+/* welcome.css */
+
+.enter-button {
+    background-color: #d1cccc;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex; /* Use flexbox to center the text */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .enter-button:hover {
+    background-color: #ccc;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-size: 14px;
+  }
+  
