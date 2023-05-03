@@ -110,12 +110,12 @@ footer {
 
   .gallery-item:hover {
     transform: scale(1.1);
+    z-index: 1;
   }
   
   .gallery-item:hover img {
     transform: scale(1.05); /* Increase the scale of the image on hover */
   }
-  
   
   .gallery-item-overlay {
     position: absolute;
