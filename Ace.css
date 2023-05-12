@@ -163,4 +163,10 @@ footer {
   .gallery-item:hover .gallery-item-overlay::before {
     opacity: 1;
   }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
   
